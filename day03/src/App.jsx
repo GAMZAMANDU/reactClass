@@ -3,6 +3,8 @@ import MapTest2 from "./MapTest2";
 import PackingList from "./packingList";
 import Scientists from "./MapTest3";
 import Scientists2 from "./MapTest4";
+import PostList from "./MapTest5";
+import PostList2 from "./MapTest6";
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
       <hr />
       <Scientists />
       <hr />
-
       <Scientists2 />
+      <hr />
+      <PostList />
+      <hr />
+      <PostList2 />
     </>
   );
 }
