@@ -10,10 +10,23 @@ import InputText1 from "./InputText1";
 import InputTest2 from "./InputText2";
 import ProfileForm from "./immer/ProfileForm";
 import ProfileFormImmer from "./immer/ProfileFormImmer";
+import UseRefAdd from "./useRef/UserAdd";
+import UserRefCreate from "./useRef/UserCreate";
+import UserRefModify from "./useRef/UserModify";
+import UseEffect1 from "./useEffect/modal";
 
 function App() {
   return (
     <>
+      <UseEffect1 />
+      {/* <h1>Day 3</h1>
+      <h2>useRef</h2>
+      <UserRefModify />
+      <hr />
+      <UserRefCreate />
+      <hr />
+      <UseRefAdd/>
+      <hr />
       <ProfileFormImmer />
       <hr />
       <ProfileForm />
@@ -36,7 +49,7 @@ function App() {
       <hr />
       <PostList />
       <hr />
-      <PostList2 />
+      <PostList2 /> */}
     </>
   );
 }
